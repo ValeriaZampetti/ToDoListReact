@@ -13,8 +13,9 @@ const Tasks = (props) => {
 		"Walk the dog",
 	]);
 	return (
-		<div className="text w-100 d-flex flex-column">
+		<div className="container d-block col-10">
 			<div style={{ marginLeft: "40%" }}>
+				
 			<p style={{ color: "pink", fontSize: "80px" }}>{"ToDos"}</p>
 			</div>
 			<Input

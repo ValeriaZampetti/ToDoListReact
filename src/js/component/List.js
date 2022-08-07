@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 export const List = (props) => {
 	return (
-		<div>
+		<div className="container w-100 d-flex flex-column">
 			{props.list.map((task, index) => {
 				return (
 					<Task

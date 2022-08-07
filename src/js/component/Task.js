@@ -13,7 +13,7 @@ export const Task = (props) => {
 	return (
 		<li
 			className="d-flex justify-content-between doIt box"
-			style={{ border: "1px solid grey", padding: "7px" }}>
+			style={{ border: "1px solid grey", padding: "5px" }}>
 			{props.task}
 			<span className="delete" onClick={deleteTask}>
 				x
